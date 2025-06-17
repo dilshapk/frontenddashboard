@@ -1,0 +1,35 @@
+
+
+.dashboard {
+  min-height: 100vh;
+  background-color: #1c3150;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard h3 {
+  font-weight: 600;
+  color: #fff;
+}
+
+.content-panel {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  color: #333;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+h5 {
+  font-weight: 500;
+  color: #222;
+}
