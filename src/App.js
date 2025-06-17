@@ -7,7 +7,7 @@ import PageTemplate from './pages/PageTemplate';
 
 const App = () => (
   <BrowserRouter>
-    <Routes>
+    <Routes> 
       <Route path="/" element={<Login />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/page/:pageName" element={<PageTemplate />} />
